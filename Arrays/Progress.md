@@ -27,3 +27,14 @@
   - Efficient in-place array updates using two pointers (`left`, `right`)
   - How to track majority using a counter instead of HashMap
   - Real-world coding patterns like overwrite & skip strategies
+
+  ## 📅 Day 3 – July 6, 2025
+- ✅ Solved 3 problems:
+  - 🔄 Rotate Array (Right shift using reversal method)
+  - 📈 Best Time to Buy and Sell Stock (Single Transaction)
+  - 📈 Best Time to Buy and Sell Stock (Multiple Transactions)
+- 📘 Learned:
+  - Efficient array rotation using reverse logic instead of extra space
+  - Using a running minimum and profit tracker for optimal buy-sell timing
+  - Greedy approach to maximize multiple transactions over price spikes
+
