@@ -26,5 +26,6 @@ public class BuySELL2 {
 
         int result = maxProfit(prices);
         System.out.println("Maximum Profit: " + result);
+        sc.close();
     }
 }
