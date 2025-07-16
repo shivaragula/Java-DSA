@@ -43,5 +43,26 @@
 - Applied greedy logic to optimize pathfinding in array-based jumps
 - Strengthened array traversal and edge-case reasoning
 
+👨‍💻 Day 5 – Java DSA Practice
+
+Today, I focused on two key areas to strengthen my fundamentals and problem-solving ability:
+
+✅ Revisited Core OOP Concepts in Java:
+
+Encapsulation, Inheritance, Polymorphism, Abstraction
+
+Implemented class-based logic for real understanding
+
+✅ Solved the RandomizedSet problem:
+
+Designed a data structure that supports insert(), remove(), and getRandom() in O(1) time
+
+Used a combination of HashMap and ArrayList to achieve constant time operations
+
+📂 Code and daily log are updated on GitHub:
+🔗 https://github.com/shivaragula/Java-DSA
+
+#Java #DSA #ObjectOrientedProgramming #HashMap #GitHub #CodingJourney #ProblemSolving #LearningInPublic #SoftwareEngineer
+
 
 
