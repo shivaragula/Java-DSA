@@ -27,23 +27,22 @@ class MiddleNode {
 
 class Main {
     public static void main(String[] args) {
-        try (Scanner sc = new Scanner(System.in)) {
-            int n = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
-            if (n == 0) return;
+        if (n == 0) return;
 
-            ListNode head = new ListNode(sc.nextInt());
-            ListNode current = head;
+        ListNode head = new ListNode(sc.nextInt());
+        ListNode current = head;
 
-            for (int i = 1; i < n; i++) {
-                current.next = new ListNode(sc.nextInt());
-                current = current.next;
-            }
-
-            MiddleNode sol = new MiddleNode();
-            ListNode middle = sol.middleNode(head);
-
-            System.out.println(middle.val);
+        for (int i = 1; i < n; i++) {
+            current.next = new ListNode(sc.nextInt());
+            current = current.next;
         }
+
+        MiddleNode sol = new MiddleNode();
+        ListNode middle = sol.middleNode(head);
+
+        System.out.println(middle.val);
     }
 }
