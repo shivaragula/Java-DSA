@@ -1,15 +1,14 @@
-public class RemDup {
+class ListNode {
+    int val;
+    ListNode next;
 
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-            this.next = null;
-        }
+    ListNode(int val) {
+        this.val = val;
+        this.next = null;
     }
+}
 
+ class RemDup {
     public static ListNode deleteDuplicates(ListNode head) {
         ListNode current = head;
 
