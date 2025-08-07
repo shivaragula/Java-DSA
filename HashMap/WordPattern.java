@@ -27,9 +27,9 @@ public class WordPattern {
 
     public static void main(String[] args) {
         WordPattern sol = new WordPattern();
-        System.out.println(sol.wordPattern("abba", "dog cat cat dog"));   // true
-        System.out.println(sol.wordPattern("abba", "dog cat cat fish"));  // false
-        System.out.println(sol.wordPattern("aaaa", "dog cat cat dog"));   // false
-        System.out.println(sol.wordPattern("ab", "dog dog dog"));         // false
+        System.out.println(sol.wordPattern("abba", "dog cat cat dog"));   
+        System.out.println(sol.wordPattern("abba", "dog cat cat fish"));  
+        System.out.println(sol.wordPattern("aaaa", "dog cat cat dog"));  
+        System.out.println(sol.wordPattern("ab", "dog dog dog"));         
     }
 }
