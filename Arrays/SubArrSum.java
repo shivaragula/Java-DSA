@@ -20,6 +20,6 @@ public class SubArrSum {
         SubArrSum solution = new SubArrSum();
         int[] nums = {1, 2, 3};
         int k = 3;
-        System.out.println(solution.subarraySum(nums, k));S
+        System.out.println(solution.subarraySum(nums, k));
     }
 }
